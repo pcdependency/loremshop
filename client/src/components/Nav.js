@@ -1,14 +1,9 @@
 import React from "react";
 import "../css/Nav.css";
 import { navLinks as links } from "../data";
-import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-scroll";
 import { Link as L } from "react-router-dom";
-
-const navMenuStyle = {
-  height: "34px",
-  width: "34px",
-};
+import MenuDrawer from "./MenuDrawer";
 
 const Nav = ({ scrollPos, inView, l }) => {
   const gte100 = scrollPos >= 100;
@@ -24,11 +19,10 @@ const Nav = ({ scrollPos, inView, l }) => {
         <div className={`navLinksContainer${l ? "" : " hide"}`}>
           {links.map((l, i) => {
             return (
-              <>
+              <div key={i}>
                 {l.to && (
                   <Link
                     to={l.to}
-                    key={i}
                     smooth
                     duration={500}
                     className="navLink"
@@ -45,7 +39,7 @@ const Nav = ({ scrollPos, inView, l }) => {
                 )}
 
                 {!l.to && !l.newTab && (
-                  <L key={i} to={l.path} className="navLink">
+                  <L to={l.path} className="navLink">
                     {l.link}
                   </L>
                 )}
@@ -60,12 +54,12 @@ const Nav = ({ scrollPos, inView, l }) => {
                     {l.link}
                   </a>
                 )}
-              </>
+              </div>
             );
           })}
         </div>
         <div className="navMenuContainer">
-          <MenuIcon style={navMenuStyle} />
+          <MenuDrawer gte100={gte100} inView={inView} />
         </div>
         <div className="navButtonContainer">
           {l ? (

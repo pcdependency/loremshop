@@ -6,6 +6,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useInView } from "react-intersection-observer";
 import { faq } from "../data";
+import Fade from "react-reveal/Fade";
 
 const accordionStyles = {
   backgroundColor: "#2b3034",
@@ -25,7 +26,7 @@ const accordionStyles = {
 };
 
 const FAQ = ({ setInView }) => {
-  const { ref } = useInView({
+  const { ref, inView } = useInView({
     onChange: (iV) => setInView("questions", iV),
     threshold: 0.6,
   });
@@ -33,13 +34,15 @@ const FAQ = ({ setInView }) => {
   return (
     <div className="faqContainer" id="faqContainer" ref={ref}>
       <div className="faqInnerContainer">
-        <div className="sectionTitleContainer">
-          <p className="sectionTitle">FAQ</p>
-          <p className="sectionDescription">Frequently Asked Questions</p>
-          <p className="sectionNotify">
-            Here are some common questions people ask us.
-          </p>
-        </div>
+        <Fade bottom cascade when={inView}>
+          <div className="sectionTitleContainer">
+            <p className="sectionTitle">FAQ</p>
+            <p className="sectionDescription">Frequently Asked Questions</p>
+            <p className="sectionNotify">
+              Here are some common questions people ask us.
+            </p>
+          </div>
+        </Fade>
         <div className="faqQuestionsContainer">
           {faq.map((q, idx) => {
             return (

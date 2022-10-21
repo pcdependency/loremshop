@@ -95,7 +95,7 @@ const plans = [
     description: "Great for trying out Adverse or if you're on a budget.",
     price: 10,
     unit: "$",
-    id: "6334affbbae07",
+    id: "615615bea6faa",
   },
   {
     plan: "Lifetime",
@@ -105,7 +105,7 @@ const plans = [
       "Lifetime ownership of Adverse, can't get any better than this.",
     price: "30",
     unit: "$",
-    id: "6334affbbae07",
+    id: "615616cfa4a5a",
   },
 ];
 

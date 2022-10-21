@@ -14,7 +14,7 @@
 .plans {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(0, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(0, 350px));
   grid-gap: 20px;
 }
 
@@ -25,7 +25,7 @@
   padding: 40px;
   display: grid;
   align-content: start;
-  grid-gap: 4vh;
+  grid-gap: 2vh;
 }
 
 .plan:hover {
@@ -64,7 +64,7 @@
   background-color: #212529;
   border: none;
   border-radius: 10px;
-  padding: 25px 0 25px 0;
+  padding: 20px 0 20px 0;
   font-weight: bold;
   color: white;
   font-size: 20px;
@@ -77,19 +77,19 @@
 
 .planFeaturesContainer {
   border-top: 1px solid #454545;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .planFeatureTitle {
   text-transform: uppercase;
   color: #bbbbbb;
-  margin-bottom: 40px !important;
+  margin-bottom: 20px !important;
 }
 
 .planFeatures {
   color: #888;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 10px;
   justify-content: start;
   align-content: center;
 }
@@ -99,5 +99,5 @@
   grid-auto-flow: column;
   justify-content: start;
   align-items: center;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }

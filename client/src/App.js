@@ -19,9 +19,11 @@ const App = () => {
     questions: false,
   });
   const [scrollPos, setScrollPos] = useState(0);
+  const [width, setWidth] = useState(window.innerWidth);
   const ref = useRef();
   useEffect(() => {
     window.addEventListener("scroll", () => setScrollPos(window.pageYOffset));
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
   });
 
   function SetInView(name, value) {
@@ -37,9 +39,9 @@ const App = () => {
             <>
               <Nav scrollPos={scrollPos} inView={inView} l={true} />
               <Hero setInView={SetInView} />
-              <Features setInView={SetInView} />
+              <Features setInView={SetInView} width={width} />
               <Stats />
-              <Pricing setInView={SetInView} />
+              <Pricing setInView={SetInView} width={width} />
               <Prompt />
               <FAQ setInView={SetInView} />
               <Footer />
