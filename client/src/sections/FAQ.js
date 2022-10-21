@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../css/FAQ.css";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -25,7 +25,7 @@ const accordionStyles = {
 };
 
 const FAQ = ({ setInView }) => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     onChange: (iV) => setInView("questions", iV),
     threshold: 0.6,
   });

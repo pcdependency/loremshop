@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../css/Features.css";
 import { features } from "../data";
 import { SvgIcon } from "@mui/material";
@@ -15,7 +15,7 @@ const featureIconStyle = {
 };
 
 const Features = ({ setInView }) => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     onChange: (iV) => setInView("features", iV),
     threshold: 0.7,
   });

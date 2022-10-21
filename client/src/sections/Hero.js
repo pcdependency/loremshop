@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../css/Hero.css";
 import { Link } from "react-scroll";
 import { useInView } from "react-intersection-observer";
 
 const Hero = ({ setInView }) => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     onChange: (iV) => setInView("home", iV),
 
     threshold: 0.5,

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../css/Pricing.css";
 import { plans, features } from "../data";
 import TaskAltIcon from "@mui/icons-material/TaskAlt";
@@ -11,7 +11,7 @@ const planCheckIconStyle = {
 };
 
 const Pricing = ({ setInView }) => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     onChange: (iV) => setInView("pricing", iV),
     threshold: 0.7,
   });
