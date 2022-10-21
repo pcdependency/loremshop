@@ -1,0 +1,74 @@
+.tosContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(28, 30, 31);
+  padding: 120px 20px 0 20px;
+  color: #888;
+}
+
+.tosInnerContainer {
+  height: 100%;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.tosPaperContainer {
+  height: 100%;
+  background-color: rgb(36, 39, 40);
+  border-radius: 10px;
+}
+
+.tosTitleContainer {
+  background-color: rgb(39, 42, 44);
+  border-radius: 10px 10px 0 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.tosTitle {
+  font-size: min(max(5vw, 20px), 40px);
+  font-weight: bold;
+  color: rgb(189, 183, 175);
+}
+
+.tosBodyContainer {
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 20px;
+  padding: min(max(5vw, 20px), 40px);
+}
+
+.tosBodyTitle {
+  font-size: 20px;
+  color: rgb(189, 183, 175);
+}
+
+.tosBody {
+  line-height: 1.5;
+  color: #888;
+}
+
+.tosBodyList {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.tosBodyListItem {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  grid-gap: 10px;
+}
+
+.tosBodyListItemTxt {
+}
+
+.tosInnerBodyList {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.tosInnerBodyListItem {
+}

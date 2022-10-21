@@ -1,0 +1,76 @@
+.heroContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#8ac3d1, #428ea1);
+  padding: 40px !important;
+  color: white;
+  overflow: hidden !important;
+}
+
+.heroInnerContainer {
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50% min-content;
+  padding-top: 50px;
+  grid-gap: min(max(2vh, 10px), 40px);
+}
+
+.leftHeroContainer {
+  height: 100%;
+  display: grid;
+  grid-gap: min(max(2vh, 10px), 40px);
+  align-content: center;
+  /* background-color: red; */
+}
+
+.heroTitle {
+  font-size: min(max(5vw, 50px), 100px);
+  font-weight: bold;
+  line-height: 0.72;
+}
+
+.heroDescription {
+  font-size: 20px;
+}
+
+.rightHeroContainer {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* background-color: blue; */
+}
+
+.heroImg {
+  height: min(max(50vw, 300px), 700px);
+  aspect-ratio: 1;
+  background: url("../img/gui.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: scale(0.75) perspective(500px) rotateY(-10deg) rotateX(-0.5deg)
+    rotateZ(1.5deg);
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+@media screen and (max-width: 1000px) {
+  .heroInnerContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .leftHeroContainer {
+    text-align: center;
+    justify-items: center;
+    align-content: end;
+  }
+
+  .heroImg {
+    height: min(max(30vw, 350px), 500px);
+    transform: scale(1) rotateY(0) rotateX(0) rotateZ(0);
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
+  }
+}

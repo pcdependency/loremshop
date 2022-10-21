@@ -1,0 +1,29 @@
+.promptContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #428ea1;
+  color: white;
+}
+
+.promptInnerContainer {
+  height: 100%;
+  max-width: 1920px;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: min(max(10vw, 20px), 50px);
+  grid-gap: 40px;
+}
+
+.promptTitle {
+  font-weight: bold;
+  font-size: min(max(5vw, 20px), 40px);
+}
+
+.promptDescription {
+  font-size: 20px;
+}

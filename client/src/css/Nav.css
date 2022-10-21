@@ -1,0 +1,150 @@
+.navContainer {
+  z-index: 999;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 0 40px 0 40px !important;
+  transition: ease-in-out 0.5s;
+}
+
+.navContainer.scroll {
+  background-color: #2b3034;
+}
+
+.navInnerContainer {
+  height: 100%;
+  max-width: 1280px;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  grid-gap: 40px;
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.logoTitle {
+  color: white;
+}
+
+.logoTitle.blue {
+  color: #428ea1;
+}
+
+.navLinksContainer {
+  width: min-content;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navLinksContainer.hide {
+  display: none;
+}
+
+.navLink {
+  cursor: pointer;
+  color: white;
+}
+
+.navMenuContainer {
+  height: 100%;
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.navButtonContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  white-space: nowrap;
+  height: min-content;
+  width: min-content;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 30px !important;
+  transition: ease-in-out 0.2s;
+}
+
+.button:hover {
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.2));
+}
+
+.button.black {
+  background-color: #2b3034;
+  border: 2px solid #2b3034;
+}
+
+.button.black:hover {
+  background-color: #2f3539;
+}
+
+.button.blue {
+  background-color: #428ea1;
+  border: none;
+}
+
+.button.white {
+  border: none;
+  color: #eee;
+}
+
+.button.white.whover:hover {
+  background-color: white;
+}
+
+.button.white.tblue {
+  color: #428ea1;
+  background-color: #eee;
+}
+
+.button.white.clear {
+  background-color: transparent;
+  border: 2px solid #eee;
+}
+
+.button.white.clear:hover {
+  background-color: #eee;
+  color: #2b3034;
+}
+
+.button.large {
+  padding: 15px 40px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .navLinksContainer {
+    display: none;
+  }
+  .navMenuContainer {
+    display: flex;
+  }
+  .navButtonContainer {
+    display: none;
+  }
+}

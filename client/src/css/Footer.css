@@ -1,0 +1,20 @@
+.footerContainer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #2b3034;
+}
+
+.footerInnerContainer {
+  height: 100%;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerText {
+  color: #888;
+}

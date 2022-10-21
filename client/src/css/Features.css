@@ -1,0 +1,74 @@
+.featuresContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+  color: #bbbbbb;
+  padding: min(max(2vw, 20px), 40px);
+}
+.featuresInnerContainer {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.features {
+  display: grid;
+  justify-content: center;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, min(max(30%, 330px), 500px));
+  transition: ease-in-out 0.5s;
+}
+
+.feature {
+  border-radius: 10px;
+  background: #2b3034;
+  border: 1px solid #454545;
+  padding: 40px;
+  display: grid;
+  align-content: center;
+  grid-gap: 20px;
+}
+
+.feature:hover {
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.featureTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.featureDescription {
+  color: #888;
+}
+
+.sectionTitleContainer {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 20px;
+  flex-direction: column;
+  padding: min(max(5vw, 20px), 50px);
+}
+
+.sectionTitle {
+  font-size: 20px;
+  color: rgb(66, 142, 161);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sectionDescription {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sectionNotify {
+  font-size: 20px;
+}
