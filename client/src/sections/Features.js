@@ -19,7 +19,7 @@ const Features = ({ setInView, width }) => {
   const lte1000 = width <= 1000;
   const { ref, inView } = useInView({
     onChange: (iV) => setInView("features", iV),
-    threshold: lte1000 ? 0 : 0.7,
+    threshold: lte1000 ? 0 : 0.5,
   });
 
   return (
