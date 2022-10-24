@@ -38,9 +38,7 @@ const FAQ = ({ setInView }) => {
           <div className="sectionTitleContainer">
             <p className="sectionTitle">FAQ</p>
             <p className="sectionDescription">Frequently Asked Questions</p>
-            <p className="sectionNotify">
-              Here are some common questions people ask us.
-            </p>
+            <p className="sectionNotify">Irure sit duis duis non officia.</p>
           </div>
         </Fade>
         <div className="faqQuestionsContainer">

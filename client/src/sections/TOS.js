@@ -20,101 +20,104 @@ const TOS = () => {
           <div className="tosBodyContainer">
             <p className="tosBodyTitle">Introduction</p>
             <p className="tosBody">
-              By agreeing to these terms of service, you consent that you are at
-              least 18 years of age or have permission and consent from a legal
-              guardian to register and that your use of the website and product
-              is in compliance with all applicable terms and regulations. We may
-              change these terms of service at any given time without notifying
-              you. The following terms and conditions govern all use of the
-              Adverse Software Website(s) and all content, service(s) and
-              products available at or through the Website.
+              Culpa adipisicing mollit eiusmod qui enim reprehenderit laboris
+              sunt excepteur occaecat pariatur sunt mollit. Ut dolore do
+              consequat do proident cupidatat deserunt enim consectetur. Tempor
+              exercitation non nostrud id excepteur magna aute sit labore. Amet
+              elit id exercitation cillum et aliquip amet do duis laborum.
+              Deserunt tempor ut excepteur veniam non sint ad reprehenderit.
             </p>
-            <p className="tosBodyTitle">General Information</p>
-            <p className="tosBody">
-              Your use of our service(s) implies that you have read and accepted
-              these Terms and Conditions. The website (all Adverse Software
-              websites may hereafter be referred to, both individually and
-              collectively, as "the website") from which you accessed this
-              agreement, is provided to you subject to the conditions listed
-              below. You are responsible for the actions of any other person who
-              may utilize your access rights on the Adverse Software website.
+            <p className="tosBodyTitle">
+              Laborum elit anim elit cupidatat voluptate laborum.
             </p>
-            <p className="tosBodyTitle">Grounds for Termination</p>
             <p className="tosBody">
-              Your use of our service(s) must not violate any of the following
-              restrictions, failure to comply may result in termination of your
-              access to any or all parts of our service(s).
+              Ullamco adipisicing sunt anim consectetur sunt culpa. Dolor
+              occaecat mollit Lorem nostrud. Mollit voluptate excepteur
+              cupidatat amet cillum. Ex dolore reprehenderit et consequat dolor
+              esse in sit exercitation nulla. Exercitation sint laboris ad
+              aliquip ullamco Lorem anim irure.
+            </p>
+            <p className="tosBodyTitle">
+              Fugiat est aliquip qui laboris consequat culpa excepteur sit
+              reprehenderit anim cillum qui mollit.
+            </p>
+            <p className="tosBody">
+              Deserunt ut qui elit commodo. Occaecat laboris culpa non occaecat.
+              Sunt dolore commodo commodo veniam minim culpa cillum. Cupidatat
+              velit excepteur anim mollit laboris.
             </p>
             <div className="tosBodyList">
               <div className="tosBodyListItem">
                 <NotInterestedIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Redistributing or attempting to redistribute your Adverse
-                  Script license (i.e license sharing, selling your license,
-                  etc).
+                  Sunt esse sunt commodo nisi velit esse est. In commodo veniam
+                  duis velit aute aliqua reprehenderit quis consectetur ut. Est
+                  consectetur laboris aliqua cillum est et culpa consectetur
+                  exercitation deserunt.
                 </p>
               </div>
               <div className="tosBodyListItem">
                 <NotInterestedIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Attempting to chargeback or refund any service purchased from
-                  Adverse Software.
+                  Aliquip aliqua aliquip nulla Lorem eiusmod.
                 </p>
               </div>
               <div className="tosBodyListItem">
                 <NotInterestedIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Distributing our service(s) to people who do not already have
-                  access to our service(s).
+                  Nulla id commodo commodo commodo qui cillum do dolore ullamco
+                  mollit nostrud. Duis in nulla voluptate consectetur id labore
+                  id labore magna aute deserunt in. Pariatur ex duis consectetur
+                  aute consequat velit deserunt do elit anim pariatur.
                 </p>
               </div>
               <div className="tosBodyListItem">
                 <NotInterestedIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Analyzing Adverse Script software, including:
+                  Incididunt do id nulla exercitation excepteur in Lorem sunt
+                  eiusmod:
                 </p>
               </div>
               <ul className="tosInnerBodyList">
                 <li className="tosInnerBodyListItem">
-                  Analysis of network authentication.
+                  Reprehenderit elit excepteur do labore minim mollit et minim
+                  incididunt culpa id ullamco fugiat.
                 </li>
                 <li className="tosInnerBodyListItem">
-                  Decompiling or disassembling any binaries downloaded from the
-                  Adverse Script website.
+                  Minim est magna aliqua non sint.
                 </li>
                 <li className="tosInnerBodyListItem">
-                  Finding methods to 'detect' our software for screensharing
-                  purposes.
+                  Culpa cillum fugiat nostrud velit tempor commodo adipisicing
+                  officia aute sunt id.
                 </li>
                 <li className="tosInnerBodyListItem">
-                  Any analysis made under bad faith, or for malicious reasons.
+                  Proident dolor reprehenderit reprehenderit sit irure
+                  consectetur occaecat id labore.
                 </li>
               </ul>
             </div>
             <p className="tosBody">
-              We may at our sole discretion suspend or terminate your access to
-              our service(s), with or without notice for any reason or no reason
-              at all.
+              Quis aliquip reprehenderit velit elit et do aliqua sunt excepteur.
+              In tempor fugiat dolore ex sint consectetur.
             </p>
-            <p className="tosBodyTitle">Refund Policy</p>
+            <p className="tosBodyTitle">Lorem Ipsum</p>
             <p className="tosBody">
-              You are entitled to a refund provided you contact us within 24
-              hours of purchase, we have deemed the reason for refund as valid,
-              and you have not violated any condition in our Grounds for
-              Termination. Examples of valid reason are:
+              Esse nostrud incididunt aute culpa consectetur velit veniam mollit
+              minim. Pariatur laboris do culpa sunt eu officia. Ad sint veniam
+              ea reprehenderit deserunt:
             </p>
             <div className="tosBodyList">
               <div className="tosBodyListItem">
                 <CheckCircleOutlineIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Inability to use our service(s) due to incompatibility with
-                  our software or other reasons that may be out of your limits.
+                  Officia duis est dolore cillum irure incididunt minim
+                  cupidatat exercitation qui ullamco.
                 </p>
               </div>
               <div className="tosBodyListItem">
                 <CheckCircleOutlineIcon style={tosIconStyle} />
                 <p className="tosBodyListItemTxt">
-                  Dissatisfaction with our service(s).
+                  Tempor anim veniam eu eu laboris voluptate anim ea quis et.
                 </p>
               </div>
             </div>

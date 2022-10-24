@@ -16,9 +16,9 @@ const Hero = ({ setInView }) => {
       <div className="heroInnerContainer">
         <Fade left cascade distance="10%">
           <div className="leftHeroContainer">
-            <p className="heroTitle">Adverse</p>
+            <p className="heroTitle">Lorem</p>
             <p className="heroDescription">
-              Adverse is an advanced Rust script developed with quality in mind.
+              Est officia ex do ad nisi elit sint aliquip veniam fugiat.
             </p>
             <Link to="pricingContainer" smooth duration={500}>
               <button className="button black large">Get Started</button>

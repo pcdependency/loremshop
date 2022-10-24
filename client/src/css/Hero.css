@@ -47,10 +47,10 @@
 .heroImg {
   height: min(max(50vw, 300px), 700px);
   aspect-ratio: 1;
-  background: url("../img/gui.png");
+  /* background: url("../img/gui.png");
   background-position: center;
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   transform: scale(0.75) perspective(500px) rotateY(-10deg) rotateX(-0.5deg)
     rotateZ(1.5deg);
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));

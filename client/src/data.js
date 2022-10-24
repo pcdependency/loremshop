@@ -28,7 +28,7 @@ const navLinks = [
   },
   {
     link: "Discord",
-    path: "https://discord.com/invite/sXfV6jcp8T",
+    path: "https://github.com/pcdependency",
     newTab: true,
   },
 ];
@@ -36,39 +36,38 @@ const navLinks = [
 const features = [
   {
     icon: VisibilityOffIcon,
-    title: "Undetected",
-    description:
-      "Hidden from all public anti-cheat solutions on the market, we ensure your safety when using Adverse.",
+    title: "Adipisicing",
+    description: "Anim reprehenderit et ad ullamco Lorem adipisicing veniam.",
   },
   {
     icon: DiscountIcon,
-    title: "Affordable",
+    title: "Laborum",
     description:
-      "Adverse is competitively priced compared to other scripts on the market while also being a better option.",
+      "Excepteur nulla qui dolore ipsum. Dolore laborum velit consectetur ipsum aliqua ex quis incididunt elit deserunt velit.",
   },
   {
     icon: DisplaySettingsIcon,
-    title: "Quality Modules",
+    title: "Excepteur Consequat",
     description:
-      "All of our modules are carefully developed allowing for a balanced level of customizability and ease of use.",
+      "Ullamco ex magna qui enim ea Lorem fugiat anim excepteur excepteur consequat ad commodo ullamco.",
   },
   {
     icon: SecurityIcon,
-    title: "Secure",
+    title: "Laboris",
     description:
-      "We use industry-standard encryption and hashing methods to ensure your sensitive data is stored securely and out of eyes from any attacker.",
+      "Ullamco duis nisi laboris labore ullamco minim et. Aliqua velit sint sint Lorem consequat laborum occaecat.",
   },
   {
     icon: ContactSupportIcon,
-    title: "Fast Support",
+    title: "Dolor Esit",
     description:
-      "Our support team is always ready to answer your questions and assist you when necessary. Create a ticket on our discord if you need assistance.",
+      "Dolore magna eu ut labore occaecat elit nisi ipsum commodo laborum labore nulla reprehenderit commodo.",
   },
   {
     icon: UpgradeIcon,
-    title: "Frequent Updates",
+    title: "Lorem Ipsum",
     description:
-      "Adverse receives constant updates ensuring our modules stay up-to-date and fitting the needs of our users.",
+      "Laboris amet labore aliquip consectetur sint proident fugiat veniam adipisicing Lorem et laboris ullamco.",
   },
 ];
 
@@ -78,11 +77,11 @@ const stats = [
     description: "Satisfaction",
   },
   {
-    stat: "40k",
+    stat: "23k",
     description: "Registered",
   },
   {
-    stat: "400k+",
+    stat: "250k+",
     description: "Launches",
   },
 ];
@@ -92,42 +91,44 @@ const plans = [
     plan: "Monthly",
     short: "mo",
     hint: "30 days",
-    description: "Great for trying out Adverse or if you're on a budget.",
+    description: "Est consequat sunt velit incididunt officia dolore.",
     price: 10,
     unit: "$",
-    id: "615615bea6faa",
+    id: "",
   },
   {
     plan: "Lifetime",
     short: "lifetime",
-    hint: "of Adverse",
+    hint: "of Lorem",
     description:
-      "Lifetime ownership of Adverse, can't get any better than this.",
+      "Esse laboris do ipsum duis enim pariatur minim esse ex exercitation nostrud sunt.",
     price: "30",
     unit: "$",
-    id: "615616cfa4a5a",
+    id: "",
   },
 ];
 
 const faq = [
   {
-    question: "What versions does Adverse support",
-    answers: ["All Windows 10 versions", "All Windows 11 versions"],
-    imgs: [],
-    links: [],
-  },
-  {
-    question: "What payment methods do you support",
+    question: "Aliqua amet exercitation ea nostrud velit cillum.",
     answers: [
-      "Our payment system is built using Sellix which allows you to purchase with a credit or debit card. We also have resellers that support payment methods such as CashApp, Apple Pay, Venmo, and more.",
+      "In ullamco excepteur enim dolor do aliqua ut enim mollit.",
+      "Et ad reprehenderit laboris exercitation duis culpa id velit cupidatat dolore consectetur laborum.",
     ],
     imgs: [],
     links: [],
   },
   {
-    question: "Can I share or resell my key",
+    question:
+      "Cillum aliqua nisi fugiat consectetur Lorem nostrud esse duis elit occaecat.",
+    answers: ["Qui cillum ea incididunt proident."],
+    imgs: [],
+    links: [],
+  },
+  {
+    question: "Nostrud non cillum dolor ipsum sint eu do.",
     answers: [
-      "No, your Adverse account belongs to you and you only. Our system checks for account redistribution and your account will be terminated if it is not used by you only. Read our Terms of Service for more info.",
+      "Dolore eu eiusmod commodo proident dolore. Ut proident est culpa irure nostrud ad aliquip sit sint elit officia elit fugiat.",
     ],
     imgs: [],
     links: [],

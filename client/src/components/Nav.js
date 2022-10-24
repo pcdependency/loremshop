@@ -13,7 +13,7 @@ const Nav = ({ scrollPos, inView, l }) => {
       <div className="navInnerContainer">
         <div className="logoContainer">
           <L to="/" className={`logoTitle${gte100 ? " blue" : ""}`}>
-            adverse
+            lorem
           </L>
         </div>
         <div className={`navLinksContainer${l ? "" : " hide"}`}>
