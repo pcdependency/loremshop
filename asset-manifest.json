@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/loremshop/static/css/main.b774e6ad.css",
+    "main.js": "/loremshop/static/js/main.bc999e44.js",
+    "index.html": "/loremshop/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.b774e6ad.css",
+    "static/js/main.bc999e44.js"
+  ]
+}
